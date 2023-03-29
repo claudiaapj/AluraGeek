@@ -1,0 +1,25 @@
+.prod__star-topo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 38px;
+    justify-content: space-between;
+    padding: 20px 0;
+  
+}
+
+.prod__star-topo h4{
+    color: var(--cor-texto);
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.ver__tudo{
+    align-items: center;
+    color: var(--cor-principal);
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    gap: 10px;
+
+}

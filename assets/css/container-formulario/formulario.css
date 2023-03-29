@@ -1,0 +1,30 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+    width: 540px;
+
+}
+.formulario input{
+    background-color: var(--cor-branco);
+    border-radius: 4px;
+    height: 56px;
+    width: 540px;
+
+}
+.formulario textarea{
+    background-color: var(--cor-branco);
+    border-radius: 4px;
+    height: 100px;
+    width: 540px;
+}
+
+.form {
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    gap: 10px;
+    height: 71px;
+    width: 156px;
+
+}

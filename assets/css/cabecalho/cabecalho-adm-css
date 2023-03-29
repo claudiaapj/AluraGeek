@@ -1,0 +1,6 @@
+.cabecalho__adm{
+    border: 1px solid var(--cor-principal );
+    color: var(--cor-principal);
+    height: 35px;
+    width: 200px;
+}

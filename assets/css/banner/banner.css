@@ -1,0 +1,44 @@
+.banner{
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../../../imagens/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 350px;
+    justify-content: flex-end;
+    padding: 22px;
+    width: 100%;
+   
+}
+
+.banner h1{
+    color: var(--cor-branco);
+    font-size: 52px;
+}
+
+.banner__texto{
+    color: var(--cor-branco);
+    font-size: 20px;
+}
+
+.banner__botao{
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    height: 47px;
+    width: 130px;
+
+}
+.banner__principal{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 200px;
+    justify-content: flex-end;
+    padding: 20px 0;
+    width: 85%;
+    
+
+}

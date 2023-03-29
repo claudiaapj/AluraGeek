@@ -1,0 +1,7 @@
+.secao__titulo__prod{
+    color: var(--cor-texto);
+    font-weight: 700;
+    font-size: 22px;
+    height: 38px;
+    width: 358px;
+}

@@ -1,0 +1,8 @@
+.cabecalho__logo{
+    align-items: center;
+    display:flex;
+    gap: 10px;
+    text-align: center;
+    position: relative;
+    
+}

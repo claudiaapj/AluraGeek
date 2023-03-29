@@ -1,0 +1,14 @@
+.secao__login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+.secao__titulo{
+    color: var(--cor-texto);
+    font-weight: 700;
+    font-size: 18px;
+    height: 29px;
+    width: 131px;
+}

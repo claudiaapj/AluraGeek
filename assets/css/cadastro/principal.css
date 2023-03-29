@@ -1,0 +1,11 @@
+.principal{
+    background-color: var(--cor-fundo-prod);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    gap: 10px;
+}

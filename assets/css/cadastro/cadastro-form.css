@@ -1,0 +1,15 @@
+.cadastro__form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: auto;
+    width: 559px;
+}
+
+.cadastro__form input{
+    background-color: var(--cor-branco);
+    border-radius: 4px;
+    height: 56px;
+    width: 559px;
+
+}

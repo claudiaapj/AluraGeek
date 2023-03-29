@@ -1,0 +1,11 @@
+{
+  "produtos": [
+    {
+      "nome": "Produto ZYZ",
+      "src": "https://1drv.ms/i/s!AuD7x4Rv00fO2Vol-ul_6BtKmrH9?e=epVRyb",
+      "categoria": "Consoles",
+      "preco": "60,00",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.produtos{
+    align-items: center;
+    background-color: var(--cor-fundo-prod);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: auto;
+    padding-bottom: 40px;
+    width: 100%;
+}

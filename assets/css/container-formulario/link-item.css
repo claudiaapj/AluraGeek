@@ -1,0 +1,5 @@
+.link__item.css{
+    color: var(--cor-texto);
+    font-weight: 500;
+    height: 19px;
+}

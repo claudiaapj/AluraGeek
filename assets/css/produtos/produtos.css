@@ -1,0 +1,7 @@
+.produtos{
+    padding: 60px 95px;
+    background-color: var(--cor-fundo-prod);
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}

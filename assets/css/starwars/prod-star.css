@@ -1,0 +1,9 @@
+.prod__star{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;  
+    height: 326px;
+    justify-content: center;
+    width: 85%;
+
+}

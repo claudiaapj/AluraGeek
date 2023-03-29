@@ -1,0 +1,11 @@
+.cabecalho__lupa img{
+    height: 17px;
+    width: 17px;
+    
+}
+.cabecalho__lupa{
+    position: absolute;
+    right: 16px;
+    top: 14px;
+    
+}

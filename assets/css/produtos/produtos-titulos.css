@@ -1,0 +1,19 @@
+.produtos__titulo{
+    display: flex;
+    justify-content: space-between;
+    height: 51px;
+    align-items: center;
+}
+
+.produtos__titulo h2{
+    color: var(--cor-texto);
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.produtos__titulo button{
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    padding: 12px;
+
+}

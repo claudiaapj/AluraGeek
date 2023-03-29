@@ -1,0 +1,25 @@
+:root{
+    --cor-principal: #2A7AE4;
+    --cor-branco: #FFFFFF;
+    --cor-cinza:  #A2A2A2;
+    --cor-texto: #464646; 
+    --cor-input: #F5F5F5; 
+    --cor-fundo-prod: #E5E5E5;
+    --cor-azul-claro: #EAF2FD;  
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+button{
+    cursor: pointer;
+
+}

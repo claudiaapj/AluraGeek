@@ -1,0 +1,16 @@
+.rodape{
+    align-items: center;
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 102px;
+    justify-content: center;
+    padding: 32px;
+   
+}
+.rodape p{
+    color: var(--cor-texto);
+    height: 38px;
+    text-align: center;
+}

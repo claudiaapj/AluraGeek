@@ -1,0 +1,14 @@
+.cabecalho__input{
+    background-color: var(--cor-input);
+    border-radius: 20px;
+    color: var(--cor-cinza);
+    font-size: 14px;
+    height: 30px;
+    padding: 6px 16px;
+    width: 393px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

@@ -1,0 +1,7 @@
+.contato{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 240px;
+}

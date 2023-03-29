@@ -1,0 +1,8 @@
+.adicionar__produto{
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    width: 559px;
+    height: 51px;
+    padding: 5px;
+    margin-top: 16px;
+}

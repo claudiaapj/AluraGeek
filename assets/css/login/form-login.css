@@ -1,0 +1,27 @@
+.form__login input{
+    display: flex;
+    flex-direction: column;
+    width: 423px;
+    border-radius: 4px;
+    background-color: var(--cor-branco);
+    height: 63px;
+}
+
+.form__login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.botao__login{
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    height: 62px;
+    width: 423px;
+}
+
+.erro__login{
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+    
+}

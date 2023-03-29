@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-input.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-lupa.css">
+    <link rel="stylesheet" href="../assets/css/container-formulario/container-item.css ">
+    <link rel="stylesheet" href="../assets/css/container-formulario/container.css">
+    <link rel="stylesheet" href="../assets/css/container-formulario/contato-titulo.css ">
+    <link rel="stylesheet" href="../assets/css/container-formulario/contato.css ">
+    <link rel="stylesheet" href="../assets/css/container-formulario/formulario.css">
+    <link rel="stylesheet" href="../assets/css/container-formulario/link-item.css ">
+    <link rel="stylesheet" href="../assets/css/container-formulario/link.css ">
+    <link rel="stylesheet" href="../assets/css/footer/footer.css">
+    <link rel="stylesheet" href="../assets/css/login/form-login.css">
+    <link rel="stylesheet" href="../assets/css/login/secao.css">
+    <link rel="stylesheet" href="../assets/css/login/secao-login.css">
+  
+    <title>AluraGeek Login</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <img class="cabeçalho__logo-slogan" src="../imagens/slogan.png" alt="imagem da logo">
+            <div class="alura">
+                <a href="../index.html"><img src="../imagens/AluraGeek.png" alt="ALURA"></a>
+                <img src="../imagens/AluraGeek (1).png" alt="GEEK">
+            </div>
+            <input class="cabecalho__input" placeholder="O que deseja encontrar?" type="text" name="" id="">
+        </div>
+    </header>
+
+    <!--INICIO LOGIN -->
+    <section class="secao">
+        <div class="secao__login">
+            <h3 class="secao__titulo">Iniciar Sessão</h3>
+            <form action="" class="form__login" data-login>
+                <input type="text" name="user"  placeholder="Digite seu login" required  data-user>
+                <input type="password" name="password" placeholder="Escreva sua senha" pattern="^(?=.*\d).{4,8}$" title="A senha deve ter entre 4 e 8 dígitos e ter ao menos um dígito númerico" required  data-senha>
+                <button type="submit" class="botao__login">Entrar</button>
+            </form>
+            <p class="erro__login" data-erro>  </p>
+        </div>
+    </section>
+
+     <!--FINAL  LOGIN -->
+
+    <section class="container">
+        <div class="container__item">
+            <div class="logo">
+                <img src="../imagens/slogan.png" alt="imagem logo" class="logo">
+                <img src="../imagens/AluraGeek.png" alt="Alura" class="alura">
+                <img src="../imagens/AluraGeek (1).png" alt="Geek" class="geek">
+            </div>
+            <ul class="link">
+                <li class="link__item">Quem somos nós<a href="#" target="_blank" ></a></li>
+                <li class="link__item">Política de privacidade<a href="#" target="_blank" ></a></li>
+                <li class="link__item">Programa fidelidade<a href="#" target="_blank" ></a></li>
+                <li class="link__item">Nossas lojas<a href="#" target="_blank" ></a></li>
+                <li class="link__item">Quero ser franqueado<a href="#" target="_blank" ></a></li>
+                <li class="link__item">Anuncie aqui<a href="#" target="_blank" ></a></li>
+            </ul>
+            <div class="contato">
+                <h3 class="contato__titulo">Fale conosco</h3>
+                <form action="" class="formulario" data-login>
+                    <input type="text" name=""  placeholder="Nome" >
+                    <textarea name="" cols="30" rows="10" class="formulario__texto" placeholder="Escreva sua mensagem"></textarea>
+                    <button class="form">Enviar mensagem</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+     <footer class="rodape">
+        <div>
+            <p>Desenvolvido por Cláudia Aguilar</p>
+            <p>2023</p>
+        </div>
+    </footer>
+    <script src="../assets/js/form/login.js" ></script>
+</body>
+</html>

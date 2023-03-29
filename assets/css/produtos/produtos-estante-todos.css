@@ -1,0 +1,15 @@
+.prod__estante-todos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+    
+}
+
+.ver__prod{
+    color: var(--cor-branco);
+    background-color: var(--cor-principal);
+    height: 30px;
+
+
+}

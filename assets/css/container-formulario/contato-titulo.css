@@ -1,0 +1,7 @@
+.contato__titulo{
+    color: var(--cor-texto);
+    font-weight: 700;
+    font-size: 18px;
+    height: 19px;
+    width: 560px;
+}
