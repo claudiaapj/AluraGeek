@@ -1,9 +1,9 @@
 const criaNovaLinha =  (nome, src, categoria, preco, id) => {
     const linhaNovoProduto = document.createElement('div');
 
-    const conteudo = `  <img src="./assets/imagens/starWars/prodEF.png" alt="">
-    <p class="descricao">Produto EF</p>
-    <p class="preco">R$ 60,00</p>
+    const conteudo = `  <img src="${src}" alt="">
+    <p class="descricao">${nome}</p>
+    <p class="preco">${preco}</p>
     <button class="ver__prod">Ver produto</button>`
 
     linhaNovoProduto.innerHTML = conteudo;
