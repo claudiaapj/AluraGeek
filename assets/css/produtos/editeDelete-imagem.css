@@ -1,0 +1,31 @@
+ .container__botoes{
+  position: relative;
+  display: flex;
+  width: 88px;
+  height: 24px;
+ }
+ .editImage {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+  
+  }
+ .deleteImage {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+  }
+  
+  .editImage,
+  .deleteImage {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .buttonDelete,
+  .buttonEdit {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  

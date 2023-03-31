@@ -1,8 +1,5 @@
-
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +12,8 @@
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-logo.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-input.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-lupa.css">
+
+    <link rel="stylesheet" href="../assets/css/produtos/editeDelete-imagem.css">
 
     <link rel="stylesheet" href="../assets/css/container-formulario/container-item.css ">
     <link rel="stylesheet" href="../assets/css/container-formulario/container.css">
@@ -41,7 +40,7 @@
         <div class="cabecalho__logo">
             <img class="cabeçalho__logo-slogan" src="../assets/imagens/slogan.png" alt="imagem da logo">
             <div class="alura">
-                <img src="../assets/imagens/AluraGeek.png" alt="ALURA">
+               <a href="../index.html"> <img src="../assets/imagens/AluraGeek.png" alt="ALURA"></a>
                 <img src="../assets/imagens/AluraGeek (1).png" alt="GEEK">
             </div>
             <button><img class="cabecalho__lupa" src="../assets/imagens/lupa.png" alt="lupa"></button>
@@ -55,7 +54,7 @@
         <section class="produtos">
             <div class="produtos__titulo">
                 <h2>Todos os produtos</h2>
-                <a href="./produtos.html"><button>Adicionar produto</button></a>
+                <a href="./cadastroProduto.html"><button>Adicionar produto</button></a>
             </div>
             <div class="produtos__item">
                 <div class="prod__estante" data-prod>     </div>
@@ -101,5 +100,5 @@
   
     
 </body>
-    <script src="../assets/js/service/produtos-services.js"></script>
+    <script type="module" src="../assets/js/service/controller/lista-produtos.js" ></script>
 </html>

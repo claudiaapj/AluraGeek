@@ -1,34 +1,36 @@
-const criaNovaLinha =  (nome, src, categoria, preco, id) => {
-    const linhaNovoProduto = document.createElement('div');
-
-    const conteudo = `  <img src="${src}" alt="">
-    <p class="descricao">${nome}</p>
-    <p class="preco">${preco}</p>
-    <button class="ver__prod">Ver produto</button>`
-
-    linhaNovoProduto.innerHTML = conteudo;
-
-    return linhaNovoProduto;
+//conexão com o API
+const listaProdutos = () => {  
+    return fetch(` http://localhost:3000/produtos`)
+    .then(resposta =>{
+        return resposta.json()
+    })
 }
 
-const form = document.querySelector("[data-prod]");
+const criaProduto = ( src, categoria, nome,  preco, descricao) => {
+    return fetch(` http://localhost:3000/produtos`, {
+        method: 'POST',
+        headers: {
+            'content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            src: src,
+            categoria: categoria,
+            nome: nome,
+            preco: preco,
+            descricao: descricao,
 
-
-
-const http = new XMLHttpRequest();
-
-http.open('GET', "http://localhost:3000/produtos");
-
-http.send();
-
-http.onload = () =>{
-    const data =  JSON.parse(http.response);
-
-    data.forEach(elemento => {
-        form.appendChild(criaNovaLinha(elemento.nome, elemento.src, elemento.categoria,elemento.preco, elemento.id))
-        
+        })
+    })
+    .then(resposta => {
+        if(resposta.ok) {
+            return resposta.body;
+        }
+        throw new Error("Não foi possível cadastrar novo produto");
     });
-   
+};
 
+export const produtosServices = {
+    listaProdutos,
+    criaProduto
 }
 

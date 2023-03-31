@@ -1,11 +1,36 @@
 {
   "produtos": [
     {
+      "src": "https://github.com/claudiaapj/AluraGeek/blob/main/assets/imagens/diversos/Camisa%20Atari.png?raw=true ",
       "nome": "Produto ZYZ",
-      "src": "https://1drv.ms/f/s!AuD7x4Rv00fOgaAPR5JFujTI-f60EQ?e=sW710n",
       "categoria": "Consoles",
       "preco": "50,00",
+      "descricao": " ",
       "id": 1
+    },
+    {
+      "src": "https://github.com/claudiaapj/AluraGeek/blob/main/assets/imagens/diversos/Camisa%20SNES.png?raw=true",
+      "categoria": "Diversos",
+      "nome": "Camisa SNES",
+      "preco": "55",
+      "descricao": "Camisa infantil SNES",
+      "id": 2
+    },
+    {
+      "src": "https://github.com/claudiaapj/AluraGeek/blob/main/assets/imagens/diversos/Camisa%20SNES.png?raw=true",
+      "categoria": "Diversos",
+      "nome": "Camisa SNES",
+      "preco": "45",
+      "descricao": "Camisa infantil SNES",
+      "id": 3
+    },
+    {
+      "src": "https://github.com/claudiaapj/AluraGeek/blob/main/assets/imagens/diversos/Controle%20e%20console%20BYZ.png?raw=true",
+      "categoria": "Diversos",
+      "nome": "Controle e console BYZ",
+      "preco": "60,00",
+      "descricao": "Controle e Console BYZ",
+      "id": 4
     }
   ]
 }
